@@ -1,0 +1,13 @@
+parameters:
+    gthm.rdfbundle.mapper_factory.class:  Gthm\RdfBundle\Mapper\MapperFactory
+    gthm.rdfbundle.mapper.class:          Gthm\RdfBundle\Mapper\JsonLdMapper
+
+services:
+    gthm.rdfbundle.mapper_factory:
+        class:            "%gthm.rdfbundle.mapper_factory.class%"
+    gthm.rdfbundle.mapper:
+        class:            "%gthm.rdfbundle.mapper.class%"
+        factory_service:  gthm.rdfbundle.mapper_factory
+        factory_method:   get
+        arguments:
+            -             @router

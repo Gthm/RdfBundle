@@ -1,0 +1,24 @@
+{
+    "name": "gthm/rdfbundle",
+    "description": ".",
+    "keywords": ["symfony2", "bundle", "rdf", "createjs"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Holzhauer",
+            "homepage": "http://github.com/gthm/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/symfony": ">=2.1.0"
+    },
+    "suggest": {},
+    "autoload": {
+        "psr-0": {
+            "Gthm\\RdfBundle\\": ""
+        }
+    },
+    "target-dir" : "Gthm/RdfBundle"
+}
