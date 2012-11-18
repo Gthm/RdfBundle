@@ -1,7 +1,6 @@
 {
-    "name": "gthm/rdfbundle",
-    "description": ".",
-    "keywords": ["symfony2", "bundle", "rdf", "createjs"],
+    "name": "gthm/rdf-bundle",
+    "description": "A Symfony2 Bundle for an easy setup of create.js endpoints",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
